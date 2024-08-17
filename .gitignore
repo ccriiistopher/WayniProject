@@ -1,0 +1,57 @@
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+WayniApi/*.swp
+WayniApi/*.*~
+WayniApi/project.lock.json
+WayniApi/.DS_Store
+WayniApi/*.pyc
+
+# Visual Studio Code
+WayniApi/.vscode
+
+# User-specific files
+WayniApi/*.user
+WayniApi/*.userosscache
+WayniApi/*.suo
+WayniApi/*.sln.docstates
+
+# Build results
+WayniApi/[Dd]ebug/
+WayniApi/[Dd]ebugPublic/
+WayniApi/[Rr]elease/
+WayniApi/[Rr]eleases/
+WayniApi/x64/
+WayniApi/x86/
+WayniApi/build/
+WayniApi/bld/
+WayniApi/[Bb]in/
+WayniApi/[Oo]bj/
+WayniApi/msbuild.log
+WayniApi/msbuild.err
+WayniApi/msbuild.wrn
+
+# Visual Studio 2015
+WayniApi/.vs/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+wayni-ts/node_modules
+wayni-ts/.pnp
+wayni-ts/.pnp.js
+
+# testing
+wayni-ts/coverage
+
+# production
+wayni-ts/build
+
+# misc
+wayni-ts/.DS_Store
+wayni-ts/.env.local
+wayni-ts/.env.development.local
+wayni-ts/.env.test.local
+wayni-ts/.env.production.local
+wayni-ts/npm-debug.log*
+wayni-ts/yarn-debug.log*
+wayni-ts/yarn-error.log*
